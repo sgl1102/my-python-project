@@ -38,8 +38,9 @@ def sort_files(folder_path):
             os.makedirs(other_folder, exist_ok=True)
             shutil.move(file_path, os.path.join(other_folder, filename))
 
-    print("✅ File sorting completed!")
+    print("File sorting completed!")
 
 if __name__ == "__main__":
     sort_files(Target_Folder)
+
 
